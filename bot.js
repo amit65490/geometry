@@ -90,9 +90,9 @@ stage.register(comment)
 
 var regex = new RegExp('.*')
 
-const admin_id = 5169514861;
+const admin_id = '868578453';
 
-const admin_id2 = ;
+const admin_id2 = '868578453' ;
 
 var mongo_url = 'mongodb+srv://Prasanth:Prasanth@cluster0.vxqhb.mongodb.net/?retryWrites=true&w=majority'; // Your Mongo URL Here
 
@@ -1434,7 +1434,7 @@ onWithdraw.on('text', async (ctx) => {
 
 
 
-                        '*⚠️ Maximum Withdrawal Is 10000 ' + currency + '*', { reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
+                        '*⚠️ Maximum Withdrawal Is 1 ' + currency + '*', { reply_markup: { keyboard: [['💰 Balance'], ['👫 Invite', '🎁 Bonus', '🗂 Wallet'], ['💵 Withdraw', '📊 Statistics']], resize_keyboard: true } }
 
 
 
